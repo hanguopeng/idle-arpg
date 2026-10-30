@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* 暖白轻科幻自定义滚动条与细节动效 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f1ea;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6d0c4;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8b0a0;
+}
